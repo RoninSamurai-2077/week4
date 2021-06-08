@@ -32,9 +32,9 @@ h1{
 }
 @keyframes color_change{
     0% {background: #333;    }
-    25% {background: ;    }
-    50% {background: ;    }
-    75% {background:;    }
+    25% {background: red;    }
+    50% {background: blue; }
+    75% {background:green;    }
     100% {background:#333 ;    }
 
 
