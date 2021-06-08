@@ -1,7 +1,7 @@
 :root{
-    var(blue, steelblue);
-    var(red, firebrick);
-    var(green, mediumseagreen);
+    --blue: steelblue;
+    --red: firebrick);
+    --green: mediumseagreen;
 }
 *{
     margin: 0;padding: 0;
@@ -25,17 +25,17 @@ body{
     animation-duration: 4s;
 }
 h1{
-    transform: translate(0.5s);
+    transform: translate(5s);
 }
-.box :hover h1{
+.box h1:hover {
     transform: rotate(360deg);
 }
 @keyframes color_change{
-    0% {background: #333;    }
-    25% {background: red;    }
-    50% {background: blue; }
-    75% {background:green;    }
-    100% {background:#333 ;    }
+    0% {background: #333;}
+    25% {background: var(--red;}
+    50% {background: var(--blue); }
+    75% {background: var(--green);}
+    100% {background:#333 ;}
 
 
 }
