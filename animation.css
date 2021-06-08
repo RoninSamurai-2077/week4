@@ -28,7 +28,7 @@ h1{
     transform: translate(0.5s);
 }
 .box :hover h1{
-    transform: rotate(360);
+    transform: rotate(360deg);
 }
 @keyframes color_change{
     0% {background: #333;    }
