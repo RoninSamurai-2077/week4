@@ -1,10 +1,11 @@
 console.log("Hello world!");
-alert("This is a warning");
-/*4) Our index.html should have the boilerplate and a single with the content of "Check the console..."
-5) Make sure to link your index.html to app1.js, from now on out we will be working out of app1.js file.
-6) Write a message to the console that says "Hello world!"
-7) Write a warning to the console that says "This is a warning!"
-8) Write an error to the console that says "Error! System critical!"
+console.warn("This is a warning");
+console.error("Error! System critical!");
+var 15 = var1;
+console.info(" ");
+var var1 + " " + "kids";
+var var2 = "6 parents";
+/*
 9) Declare a variable named var1
 //10) Assign a string data type value to var1
 //11) Write the value of var1 to the console
