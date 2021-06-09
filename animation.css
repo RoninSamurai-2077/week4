@@ -1,0 +1,52 @@
+:root{
+    --blue: steelblue;
+    --red: firebrick);
+    --green: mediumseagreen;
+}
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    height: 100vh; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+.center{
+    height: 100%;
+    display: flex;
+    justify-content: center;align-items: center;
+}
+.box{
+    height: 250px;width: 250px;
+    background: #333; text-emphasis-color: #fff;
+    display: flex;
+    justify-content: center;align-items: center;
+    animation-name: color_change; animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+h1{
+    transform: translate(5s);
+}
+.box h1:hover {
+    transform: rotate(360deg);
+}
+@keyframes color_change{
+    0% {background: #333;}
+    25% {background: var(--red;}
+    50% {background: var(--blue); }
+    75% {background: var(--green);}
+    100% {background:#333 ;}
+
+
+}
+/*6) SELECTOR: the root element DECLARATIONS: declare a variable "blue" with the value "steelblue", declare a variable named "red" with the value "firebrick", declare a variable "green" with the value "mediumseagreen"
+13) KEYFRAMES: your animation name DECLARATIONS:
+@ 0%: set background to #333
+@ 25%: set background to the variable red
+@ 50%: set background to the variable blue
+@ 75%: set background to the variable green
+@ 100%: set background to the variable #333
+14) Push your work to github
+15) Open a pull request from practice --> main
+16) Close your pull request
+
