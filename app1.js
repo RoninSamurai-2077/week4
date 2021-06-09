@@ -1,22 +1,18 @@
 console.log("Hello world!");
 console.warn("This is a warning");
 console.error("Error! System critical!");
-
-
 //9) Declare a variable named var1
 var var1;
 //10) Assign a string data type value to var1
-
-var1 = "parents" + " " + "3 kids";n
+var1 = "parents" + " " + "3 kids";
 //11) Write the value of var1 to the console
 console.log(var1);
 //12) Write a blank line to the console. (I showed one way to do this in class, there are some others feel free to use those instead if you'd like, practice your google-fu)
-console.info("  ")
+console.info("  ");
 //13) Define and assign a variable named var2, the value should be of the number type
-var var2 = 2 ;
+var var2 = 2;
 //14) Evaluate var1 + var2 and write the result to the console (You can store the result in a variable and write it to the console, or pass the expression into a method that will remain un-named)
-var var3 = var2 + " " + var1 
-
+console.info(var1 + var2 = parents 3 kids2); 
 //15) Could you guess the result? Write your guess in an inline comment next to where you're writing it to the console
 
 //2parents 3 kids 
@@ -33,16 +29,16 @@ var var3 = var2 + " " + var1
 //18) Can you guess the result? Write your guess in an inline comment next to where you're writing to the console.
 
 //19) Declare a variable named var3 and assign it the string value text
-var var3 = var2 + " " + var1 
+var var3 = var2 + " " + var1;
 //20) Write the value of var3 to the console
-
+console.info
 //20) Reassign var3 to a boolean value
 
 //21) Write the value of var3 to the console
-
+console.info(2parents 3 kids)
 //22) Reassign var1 to the number 5
 var 5 = var1
 //23) Reassign var2 to the string 5
-var string 5 = var2 
+var string 5 = var2
 //24) In any order or in however many lines you'd like, parse var2 from a string to a number and add it to var1, write your result to the console.
 
