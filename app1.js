@@ -29,7 +29,7 @@ console.info (parents 3 kids2);
 //18) Can you guess the result? Write your guess in an inline comment next to where you're writing to the console.
 
 //19) Declare a variable named var3 and assign it the string value text
-var var3 = var2 + " " + var1;
+var var3 = var2 + " " + "and"+ var1;
 //20) Write the value of var3 to the console
 console.info
 //20) Reassign var3 to a boolean value
