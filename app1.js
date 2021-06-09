@@ -1,10 +1,13 @@
 console.log("Hello world!");
 console.warn("This is a warning");
 console.error("Error! System critical!");
-var 15 = var1;
+var 'kids' = var1;
 console.info(" ");
-var var1 + " " + "kids";
-var var2 = "6 parents";
+String = var1 + "\n" + "4 parents";
+var var2 = "6";
+var var1 = var2 + var1
+
+
 /*
 9) Declare a variable named var1
 //10) Assign a string data type value to var1
