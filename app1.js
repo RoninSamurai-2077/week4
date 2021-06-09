@@ -41,8 +41,8 @@ var var3 = var2 + " " + var1
 //21) Write the value of var3 to the console
 
 //22) Reassign var1 to the number 5
-
+var 5 = var1
 //23) Reassign var2 to the string 5
-
+var string 5 = var2 
 //24) In any order or in however many lines you'd like, parse var2 from a string to a number and add it to var1, write your result to the console.
 
