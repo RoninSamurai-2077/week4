@@ -25,7 +25,7 @@ console.info(var1 + var2 = parents 3 kids2);
 */
 
 //17) Write the type of the var1 variable to the console
-
+console.info (parents 3 kids2);
 //18) Can you guess the result? Write your guess in an inline comment next to where you're writing to the console.
 
 //19) Declare a variable named var3 and assign it the string value text
@@ -33,12 +33,19 @@ var var3 = var2 + " " + var1;
 //20) Write the value of var3 to the console
 console.info
 //20) Reassign var3 to a boolean value
+boolean var3 = true;
 
+if ( !var3 ) {
+System.out.println("it's flase");
+}
+else {
+System.out.println("it's true");
+}
 //21) Write the value of var3 to the console
-console.info(2parents 3 kids)
+console.info(2parents 3 kids);
 //22) Reassign var1 to the number 5
-var 5 = var1
+var 5 = var1;
 //23) Reassign var2 to the string 5
-var string 5 = var2
+var string 5 = var2;
 //24) In any order or in however many lines you'd like, parse var2 from a string to a number and add it to var1, write your result to the console.
 
