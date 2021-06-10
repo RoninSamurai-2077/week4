@@ -25,7 +25,7 @@ console.info(var1 + var2 = parents 3 kids2);
 */
 
 //17) Write the type of the var1 variable to the console
-console.info (parents 3 kids2);
+console.info (var1);
 //18) Can you guess the result? Write your guess in an inline comment next to where you're writing to the console.
 
 //19) Declare a variable named var3 and assign it the string value text
@@ -42,7 +42,7 @@ else {
 System.out.println("it's true");
 }
 //21) Write the value of var3 to the console
-console.info(2parents 3 kids);
+console.info(var3);
 //22) Reassign var1 to the number 5
 var 5 = var1;
 //23) Reassign var2 to the string 5
