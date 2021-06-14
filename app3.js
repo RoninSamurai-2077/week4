@@ -7,20 +7,28 @@ menus.create(loss;
 let choices = ['rock','paper','scissors'];
 console.log (gmae.choices);
 //6) Create two variables, "random1" & "random2", each variables value should equal to a random number integer between 0 & 2.
-var random1 =
-var random2 = ran
+var random1 = 
+var random2 = Math.r
 //7) Create two more variables, "bot1" and "bot2", I don't really know how to explain this one so I'm going to spell it out, t/hey should look like this: var bot1 = choices[random1]; var bot2 = choices[random2];
 var bot1 = choices[random1];
 var bot2 = choices[random2];
 //8) Next using if/else if/else statements or switch statements determine who was the winner, if bot1 was the winner set the "win" property of game equal to 1. If bot1 loses set the "loss" property of game equal to 1.
-
+if (bot1 = win) {
+    result = 1 ;
+    }
+if (bot1 = loss){
+    results = -1 + results
+}
+ 
 //9) Create a variable named "results" and set its value equal to an empty string
-
+var results = "    "
 //10) Write an if statement to check if the win property is greater than 0. If true the code block...
 //a) ...should append the value of the bot1 variable to the results variable
 //b) append the string " beats " to the results variable
 //c) append the value of bot2 to the results variable
-
+if (win > 0) {
+    bot1
+}
 //11) Write an else if statement to check if the loss property is greater than 0. If true the code block...
 //a) ...should append the value of the bot2 variable to the results variable
 //b) append the string " beats " to the results variable
