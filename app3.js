@@ -39,7 +39,10 @@ if (game.loss>0) {
     string.concat(bot2.result ,"beats", bot1.result)
 }
 //12) Write an else statement in which the code block should append "Tie game" to the results variable
-
+if (game.win = game.loss)
+{
+    string.concat(bot2.result ,"Tie game", bot1.result)
+}
 //13) Write the results variable to the console
 
 //14) Push your work
