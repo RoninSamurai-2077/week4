@@ -1,8 +1,8 @@
 //3) Create an object with the name of "game"
-var game = new Object()
+var game = new Object();
 //4) The "game" object should have two properties, "win" & "loss" both properties values should be the number 0
 game.win = 0;
-game.loss = 0 
+game.loss = 0;
 //5) Create an array named choices, it should have the following elements, "rock", "paper", & "scissors" they should all be of type string
 let choices = ['rock','paper','scissors'];
 console.log (game.choices);
@@ -22,7 +22,6 @@ if (bot1 = win) {
 if (bot1 = loss){
     results = -1 + results
 }
- 
 //9) Create a variable named "results" and set its value equal to an empty string
 var results = "    "
 //10) Write an if statement to check if the win property is greater than 0. If true the code block...
