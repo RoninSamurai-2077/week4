@@ -16,10 +16,10 @@ var random2 = console.log(getRandomInt(3));
 var bot1 = choices[random1];
 var bot2 = choices[random2];
 //8) Next using if/else if/else statements or switch statements determine who was the winner, if bot1 was the winner set the "win" property of game equal to 1. If bot1 loses set the "loss" property of game equal to 1.
-if (bot1 = win) {
+if (bot1 = game.win) {
     result = 1 ;
     }
-if (bot1 = loss){
+if (bot1 = game.loss){
     results = -1 + results
 }
 //9) Create a variable named "results" and set its value equal to an empty string
@@ -28,14 +28,16 @@ var results = "    "
 //a) ...should append the value of the bot1 variable to the results variable
 //b) append the string " beats " to the results variable
 //c) append the value of bot2 to the results variable
-if (win > 0) {
+if (game.win > 0) {
     bot1
 }
 //11) Write an else if statement to check if the loss property is greater than 0. If true the code block...
 //a) ...should append the value of the bot2 variable to the results variable
 //b) append the string " beats " to the results variable
 //c) append the value of bot2 to the results variable
-
+if (game.loss) {
+    bot2
+}
 //12) Write an else statement in which the code block should append "Tie game" to the results variable
 
 //13) Write the results variable to the console
