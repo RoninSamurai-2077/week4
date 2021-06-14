@@ -29,14 +29,14 @@ var results = "    "
 //b) append the string " beats " to the results variable
 //c) append the value of bot2 to the results variable
 if (game.win > 0) {
-    bot1
+    string.concat(bot1.result,  "beats", bot2.result)
 }
 //11) Write an else if statement to check if the loss property is greater than 0. If true the code block...
 //a) ...should append the value of the bot2 variable to the results variable
 //b) append the string " beats " to the results variable
 //c) append the value of bot2 to the results variable
-if (game.loss) {
-    bot2
+if (game.loss>0) {
+    string.concat(bot2.result ,"beats", bot1.result)
 }
 //12) Write an else statement in which the code block should append "Tie game" to the results variable
 
