@@ -1,14 +1,17 @@
 //3) Create an object with the name of "game"
-Object.create(game);
+var game = new Object()
 //4) The "game" object should have two properties, "win" & "loss" both properties values should be the number 0
-menus.create(win);
-menus.create(loss; 
+game.win = 0;
+game.loss = 0 
 //5) Create an array named choices, it should have the following elements, "rock", "paper", & "scissors" they should all be of type string
 let choices = ['rock','paper','scissors'];
-console.log (gmae.choices);
+console.log (game.choices);
 //6) Create two variables, "random1" & "random2", each variables value should equal to a random number integer between 0 & 2.
-var random1 = 
-var random2 = Math.r
+function getRandomInt(max) {
+    return Math.floor(Math.random() * max);
+  }
+var random1 = console.log(getRandomInt(3));
+var random2 = console.log(getRandomInt(3));
 //7) Create two more variables, "bot1" and "bot2", I don't really know how to explain this one so I'm going to spell it out, t/hey should look like this: var bot1 = choices[random1]; var bot2 = choices[random2];
 var bot1 = choices[random1];
 var bot2 = choices[random2];
