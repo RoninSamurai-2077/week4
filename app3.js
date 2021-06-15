@@ -5,22 +5,27 @@ game.win = 0;
 game.loss = 0;
 //5) Create an array named choices, it should have the following elements, "rock", "paper", & "scissors" they should all be of type string
 let choices = ['rock','paper','scissors'];
-console.log (game.choices);
+console.log (game);
 //6) Create two variables, "random1" & "random2", each variables value should equal to a random number integer between 0 & 2.
 function getRandomInt(max) {
     return Math.floor(Math.random() * max);
   }
-var random1 = console.log(getRandomInt(3));
-var random2 = console.log(getRandomInt(3));
+var random1 = getRandomInt(3);
+var random2 = getRandomInt(3);
 //7) Create two more variables, "bot1" and "bot2", I don't really know how to explain this one so I'm going to spell it out, t/hey should look like this: var bot1 = choices[random1]; var bot2 = choices[random2];
 var bot1 = choices[random1];
 var bot2 = choices[random2];
 //8) Next using if/else if/else statements or switch statements determine who was the winner, if bot1 was the winner set the "win" property of game equal to 1. If bot1 loses set the "loss" property of game equal to 1.
-if (bot1 = game.win) {
-    result = 1 ;
-    }
-if (bot1 = game.loss){
-    results = -1 + results
+if (bot1 == 'paper' && bot2 == 'rock' ) { 
+    game.win = 1;
+} 
+else if (bot1 == 'rock' && bot2 == 'scissors' ) { 
+    game.win = 1;
+} 
+else if (bot1 == 'scissors' && bot2 == 'paper' ) { 
+    game.win = 1; } 
+else { 
+    game.loss = 1;
 }
 //9) Create a variable named "results" and set its value equal to an empty string
 var results = "    "
@@ -29,22 +34,21 @@ var results = "    "
 //b) append the string " beats " to the results variable
 //c) append the value of bot2 to the results variable
 if (game.win > 0) {
-    string.concat(bot1.result,  "beats", bot2.result)
+    var result = bot1.result +  "beats" + bot2.result;
 }
 //11) Write an else if statement to check if the loss property is greater than 0. If true the code block...
 //a) ...should append the value of the bot2 variable to the results variable
 //b) append the string " beats " to the results variable
 //c) append the value of bot2 to the results variable
 if (game.loss>0) {
-    string.concat(bot2.result ,"beats", bot1.result)
+    var result = bot2.result +  "beats" + bot1.result;
 }
 //12) Write an else statement in which the code block should append "Tie game" to the results variable
 if (game.win = game.loss)
 {
-    string.concat(bot2.result ,"Tie game", bot1.result)
+    var result = bot1.result +  "Tie game" + bot2.result;
 }
 //13) Write the results variable to the console
-
+console.log(results);
 //14) Push your work
-
-//15) Open a pull request from practice -> master, merge your pull request
+//15) Open a pull request from practice -> master, merge your pull request.
