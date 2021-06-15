@@ -22,6 +22,9 @@ if (bot1 == 'paper' && bot2 == 'rock' ) {
 else if (bot1 == 'rock' && bot2 == 'scissors' ) { 
     game.win = 1;
 } 
+if (bot1 == bot2){
+    
+}
 else if (bot1 == 'scissors' && bot2 == 'paper' ) { 
     game.win = 1; } 
 else { 
